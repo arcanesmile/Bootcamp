@@ -38,22 +38,22 @@ const App: React.FC = () => {
         </a>
       </section>
       {/* about */}
-      <section className="section fade-in">
+      <section >
         <h2>About Bithub</h2>
         <p>In a world driven by technology, innovation and problem-solving skills are essential for growth. Bithub, a vibrant community of bright-minded developers, is on a mission to tackle challenges boldly through creativity and critical thinking. Recognizing the need for digital skills, Bithub has taken a bold step to equip students in MOAM, Benue State, with in-demand tech skills—specifically web development—bringing the opportunity right to their doorstep at an affordable cost.
         </p> 
         <h3>Why Web Development?</h3>
-        <p>Web development is a foundational tech skill with vast opportunities. By mastering HTML, CSS, JavaScript, and more, students can:  
+        <p className="section fade-in">Web development is a foundational tech skill with vast opportunities. By mastering HTML, CSS, JavaScript, and more, students can:  
 - Build websites and web applications  
 - Freelance or secure remote jobs  
 - Contribute to local and global tech solutions  
 - Kickstart a career in tech without needing a degree</p>
 
         <h3>A Step Toward a Brighter Future</h3>
-        <p>Bithub’s initiative is more than just a training program—it’s a movement to ignite innovation and foster self-reliance among Benue’s youth. By equipping students with web development skills, Bithub is planting seeds for a future where young Nigerians can compete globally, solve local problems, and drive economic growth through technology.</p>
+        <p className="section fade-in" >Bithub’s initiative is more than just a training program—it’s a movement to ignite innovation and foster self-reliance among Benue’s youth. By equipping students with web development skills, Bithub is planting seeds for a future where young Nigerians can compete globally, solve local problems, and drive economic growth through technology.</p>
 
           <h3>Join the Movement!</h3>
-           <p>If you’re a student in MOAM, Benue State, or know someone who could benefit from this opportunity, don’t miss out! Follow Bithub for updates on upcoming training sessions and be part of the next generation of tech innovators.
+           <p className="section fade-in">If you’re a student in MOAM, Benue State, or know someone who could benefit from this opportunity, don’t miss out! Follow Bithub for updates on upcoming training sessions and be part of the next generation of tech innovators.
            </p>
       </section>
       {/* What You'll Learn */}
@@ -103,8 +103,7 @@ const App: React.FC = () => {
         <h2>Meet Your Instructor</h2>
         <div className="profile-box">
           <img src="/profile.jpg" alt="Instructor" className="profile-pic" />
-          <p>
-            Hello! I’m <strong>oryisa Bem Benjamin</strong>, a passionate software developer and the CEO of Bithub, a community-driven initiative empowering the next generation of tech innovators. With expertise in full-stack development, I specialize in building scalable web and mobile applications using clean, efficient code. My mission? To bridge the gap between user experience and technical performance, delivering solutions that drive real-world impact.  
+          <p>Hello! I’m <strong>Ioryisa Bem Benjamin</strong>, a passionate software developer and the CEO of Bithub, a community-driven initiative empowering the next generation of tech innovators. With expertise in full-stack development, I specialize in building scalable web and mobile applications using clean, efficient code. My mission? To bridge the gap between user experience and technical performance, delivering solutions that drive real-world impact.  
 
 As a developer, I don’t just build software—I build opportunities. Over the years, I’ve helped numerous beginners kickstart their web development journey, whether they’re using:  
 - Acode (for mobile coding)  
